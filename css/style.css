@@ -148,7 +148,7 @@ span .navbar-toggler-icon {
 }
 .navbar button.btn1{
   background-color: transparent;
-  border-color: #ff7949;
+  border-color: #ff7949 !important;
   border-radius: 15px;
   margin-right: 20px !important;
 }
