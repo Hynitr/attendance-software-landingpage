@@ -53,22 +53,16 @@ li {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Poppins" !important;
-}
+
 
 p {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "hynitrfont";
+  font-family: "Poppins";
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins";
   background-color: #ffffff;
 }
 
@@ -169,18 +163,21 @@ span .navbar-toggler-icon {
  border: 2px solid #0D1D26;
 }
 .landing-text h1{
-  color: #0D1D26 !important;
+  color: #f1f1f1!important;
  font-size: 50px ;
+ position: relative;
+ -webkit-text-stroke: 0.2vw #0D1D26;
 }
 .landing-text h1 span{
   color:  #77bcd9 !important;
-
+  -webkit-text-stroke: 0vw #0D1D26;
 }
+
 .landing-text p{
   color: #0D1D26 !important;
 }
 .email-box form{
-  margin-top: 30px;
+    margin-top: 30px;
     width: 400px;
     max-width: 100%;
     position: relative;
@@ -190,9 +187,10 @@ span .navbar-toggler-icon {
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid #0D1D26 ;
+    border: 1px solid #ddd ;
     outline: none;
-    border-radius: 30px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
 }
 .email-box form input:last-child{
     padding: 10px;
@@ -200,7 +198,7 @@ span .navbar-toggler-icon {
     outline: none;
     border: none;
     position: absolute;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: #0D1D26;
     color: #ffffff;
     font-weight:600;
